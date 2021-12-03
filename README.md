@@ -18,8 +18,8 @@ We hebben voor dit project daarom moeten uitwijken naar een afstandentabel van h
 We op basis van deze data een verhaal kunnen maken (dat kun je [hier lezen](https://www.ftm.nl/artikelen/verschraling-platteland?utm_campaign=Dimitri-Tokmetzis&utm_source=article&utm_medium=link&share=WZHhSkWk%2FaABIchwL8u5OGV9n7PLu6qgLYPhsi06euQAzSvdaCd9KuKBkYIyWWQ%3D)). We zijn nog niet tevreden op de manier waarop we de data hebben gevisualiseerd. Ook al zijn de data beperkt, we zouden hier meer mee moeten kunnen. 
 
 Wat hebben beschikbaar?
-1. Een tabel van het CBS met afstanden naar een aantal basisvoorzieningen tussen 2007-2019 per buurt, wijk en gemeente.
-2. Shapefiles van wijken, buurten en gemeenten. 
+1. Een [tabel van het CBS](https://github.com/ftmnl/verschraling_voorzieningen/blob/main/nabijheid_excl_shapes.csv) met afstanden naar een aantal basisvoorzieningen tussen 2007-2019 per buurt, wijk en gemeente.
+2. [Shapefiles van wijken, buurten en gemeenten](https://drive.google.com/drive/folders/1eTGi7SIMDn59lnXMwqGx7EU6Mk5el3sI?usp=sharing). 
 
 De data van het CBS zijn vrij makkelijk om mee te werken. Shapefiles zijn lastiger, zeker van gemeenten. Een van de problemen is dat je met gemeentelijke herindelingen zit: ieder jaar worden er weer gemeenten gefuseerd of gesplitst. Daar moet je dus rekening mee houden. Daarnaast zijn shapefiles vrij groot en heb je gespecialiseerde software, zoals ArcGIS of het open source QGIS nodig om wat meer geavanceerde analyses te kunnen doen. Er zijn ook andere tools beschikbaar voor analyse en visualisatie, denk aan:
 1. Geopandas, een Python library waarmee je makkelijk met data (pandas) en geografische files kunt werken.
